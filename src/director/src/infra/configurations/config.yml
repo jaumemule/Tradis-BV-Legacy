@@ -1,0 +1,60 @@
+data_files:
+  data: 'TUSD_25_periodes.csv'
+  coins: '5_coins.txt'  # not in use
+
+indicators:
+  periods: 15
+  period: 20
+  chop_period: 20
+  rsi_period: 14
+  period_list_max: 25
+  list:
+    - rsi
+
+training:
+  episode_len: 25000
+  episode_num: 1
+  max_episode_timesteps: 50
+  points_num: 2500
+  test_len: 1000  # maximum is 5k with the current data
+  test_num: 2
+  toy: False
+  toy_episode_len: 100  # not in use
+  toy_test_num: 10  # not in use
+  max_batch_size: 1
+  max_evals: 1  # do not touch
+  max_laziness : 0.6423010174615336
+  laziness_punishment : 0.37576990034812524  # not in use
+
+about_data:
+  rescaling: 'total'  # not in use
+  layered: False
+  window: 10
+  forecast_len: 1
+  starting_point: 0
+  candle_size: 60
+
+agent:
+  agent_type: 'ppo'  # dpg not working
+  return_type: 'trade'
+
+financial:
+  start_cash: 1.
+  fee: 0.
+  reference_coin: 'USDT'
+  trading_coin: 'BTC'
+
+network:
+  num_layers: 3
+  size: 8
+  window: 3
+  stride: 2
+  funnel: True
+  reg: 0.0
+  dropout: 0.2
+
+development:
+  repeat: False
+  only_prices: False
+  pct_change: False
+  comparison: 'single_coin'  # 'optimal' is the other option; to check always with best move

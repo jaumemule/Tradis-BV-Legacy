@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "description": "crypto API",
+  "main": "server.js",
+  "scripts": {
+    "start": "./src/bin/production_server",
+    "test": "mocha --harmony --require test/babel-hook",
+    "coverage": "istanbul cover _mocha -- --harmony --require test/babel-hook"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "1.17.1",
+    "ccxt": "^1.18.1150",
+    "compression": "1.6.2",
+    "express": "^4.16.1",
+    "gulp": "3.9.1",
+    "mongoose": "^5.9.13",
+    "nodemon": "^1.14.10",
+    "npm": "^5.5.1",
+    "path": "0.12.7",
+    "pm2": "2.10.1",
+    "queue": "^4.4.2",
+    "redis": "^3.0.2",
+    "request": "2.81.0",
+    "underscore": "1.8.3",
+    "winston": "^2.3.1"
+  }
+}

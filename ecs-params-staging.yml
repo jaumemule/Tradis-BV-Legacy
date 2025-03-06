@@ -1,0 +1,19 @@
+version: 1
+task_definition:
+  ecs_network_mode: awsvpc
+  task_execution_role: tradis-staging-execution-iam-role
+  task_size:
+    cpu_limit: 256
+    mem_limit: 2GB
+  services:
+    tradis:
+      essential: true
+
+run_params:
+  network_configuration:
+    awsvpc_configuration:
+      subnets:
+        - subnet-xxxx
+      security_groups:
+        - sg-xxxx
+      assign_public_ip: DISABLED

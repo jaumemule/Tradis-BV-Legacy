@@ -1,0 +1,47 @@
+training:
+  forecast_len: 60
+  interval: 5
+  scale: False
+  seq_len: 300
+  volumes: False
+  which_model: 2
+  complete_testing: False
+  out_files: 1
+  which_test:
+  - 10
+net:
+  epochs: 200
+  batch_size: 512
+  dense_units: 256
+  dropout: 0.2
+  l_rate_decay: True
+  learning_rate: 0.0025
+  lstm_units: 256
+  patience: 2
+  min_delta: 0.
+
+financial:
+  amount: 100
+  fee: 0.0028
+  percentages:
+  - 0.4
+  - 0.3
+  - 0.2
+  - 0.1
+  - 0.0
+
+indices:
+  rsi_gap: 24
+  rsi_length: 14
+  stoch_length: 14
+
+other:
+  charts: charts
+  data: data
+  investments: investments
+  log_name: log_x.log
+  logs: logs
+  model_name: 2019-02-03-01-04_2.h5
+  unix: False
+  database: postgres://postgres:eudald@localhost:5432/
+  training_time: 10

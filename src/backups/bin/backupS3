@@ -1,0 +1,7 @@
+#!/bin/bash
+mongodump -h localhost:27017 -d aggregated -o backup --collection=binance_aggregation
+tar -zcvf aggregated1.tar.gz backup
+/bin/bash bin/uploader.sh
+#rm -rf backup
+#rm -rf aggregated.tar.gz
+/bin/bash bin/slack.sh

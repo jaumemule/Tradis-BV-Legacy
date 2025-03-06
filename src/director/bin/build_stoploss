@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -e
+
+echo "stoploss succesfuly installed. Building... (from director bin)"
+
+currentDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+projectDir=$currentDir/../app
+
+# RUN build
+echo "RUNNING stoploss"
+echo "Job succesfully done"
+
+pwd
+ls
+ls ../
+
+# WORKAROUND ALERT!!! since director and stoploss share code, for some reason, stoploss would start listening to director job handler and viceversa
+rm -f ./director_job_listener.py
+
+python ./stoploss_worker.py

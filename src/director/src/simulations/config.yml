@@ -1,0 +1,53 @@
+about_data:
+  candle_size: 60
+  forecast_len: 1
+  layered: false
+  rescaling: total
+  starting_point: 0
+  window: 10
+agent:
+  agent_type: ppo
+  return_type: trade
+data_files:
+  coins: 5_coins.txt
+  data: TUSD_25_periodes.csv
+development:
+  comparison: single_coin
+  only_prices: false
+  pct_change: false
+  repeat: false
+financial:
+  fee: 0.0
+  reference_coin: USDT
+  start_cash: 1.0
+  trading_coin: BTC
+indicators:
+  chop_period: 20
+  list:
+    - rsi
+  period: 20
+  period_list_max: 25
+  periods: 15
+  rsi_period: 14
+network:
+  dropout: 0.2
+  funnel: true
+  num_layers: 3
+  reg: 0.0
+  size: 8
+  stride: 2
+  window: 3
+training:
+  episode_len: 25000
+  episode_num: 1
+  laziness_punishment: 0.37576990034812524
+  max_batch_size: 1
+  max_episode_timesteps: 50
+  max_evals: 1
+  max_laziness: 0.6423010174615336
+  points_num: 2500
+  test_len: 1000
+  test_num: 2
+  toy: false
+  toy_episode_len: 100
+  toy_test_num: 10

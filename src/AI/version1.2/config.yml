@@ -1,0 +1,59 @@
+training:
+  forecast_len: 28
+  interval: 5
+  scale: True
+  seq_len: 300
+  volumes: True
+  which_model: abe
+  model_type: 'linear'
+  coin_list: 'coin_list.txt'
+  complete_testing: False
+  n_test_files: 2
+  n_train_files: 8
+  which_test:
+  - 7
+  - 21
+net:
+  epochs: 100
+  batch_size: 128
+  dense_units: 193
+  dropout: 0.3106044502232703
+  l_rate_decay: True
+  learning_rate: 0.01
+  lstm_units: 200
+  patience: 2
+  min_delta: 0.
+  inner_units: 113
+  l2: 0.0009194811364566645
+  l1: 0.006898458491552695
+  max_norm: 2.0351386170121994
+  kernel_size: 2
+  pooling_size: 3
+  size: 1.736660571091984
+
+financial:
+  amount: 100
+  fee: 0.
+  percentages:
+  - 0.4
+  - 0.3
+  - 0.2
+  - 0.1
+  - 0.0
+
+indices:
+  rsi_gap: 24
+  rsi_length: 14
+  stoch_length: 14
+
+other:
+  charts: charts
+  data: data
+  investments: investments
+  log_name: log_x.log
+  logs: logs
+  model_name: 2019_03_26_07_28_abe.h5
+  unix: False
+  database: postgres://postgres:eudald@localhost:5432/
+  training_time: '104.76573336666667'
+  model_uuid: '9c1ac6fe-b193-4dc7-9f66-37830dbb5b1c'

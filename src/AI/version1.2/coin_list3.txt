@@ -1,0 +1,5 @@
+TUSD
+VIA
+WAVES
+TRX
+XVG

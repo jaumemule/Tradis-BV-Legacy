@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Tracker succesfuly installed. Building tracker"
+
+currentDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+projectDir=$currentDir/../app
+
+# RUN build
+echo "RUNNING project"
+echo "Job succesfully done"
+
+date=$(date '+%Y-%m-%d')
+
+python ./import.py --coins BTC,ETH --market USDT --until ${date} --days 2
+python ./__singleRun__.py
+python ./__init__.py

@@ -1,0 +1,7 @@
+FROM 439065282679.dkr.ecr.eu-west-1.amazonaws.com/cryptoreus-python:latest 
+
+WORKDIR /usr/app/src/director 
+
+ADD . . 
+ 
+ENTRYPOINT ["/bin/bash", "bin/build"] 

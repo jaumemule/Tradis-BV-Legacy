@@ -1,0 +1,7 @@
+#!/bin/bash
+mongodump -h localhost:27017 -d aggregated -o backup --collection binance_aggregation
+tar -zcvf binance_tracker_full.tar.gz backup
+#/bin/bash uploader.sh
+#rm -rf backup
+#rm -rf binance_tracker.tar.gz
+#/bin/bash slack.sh

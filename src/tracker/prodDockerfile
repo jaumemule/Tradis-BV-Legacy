@@ -1,0 +1,7 @@
+FROM XXXXX:latest
+ 
+WORKDIR /usr/app/src/tracker 
+ 
+ADD . . 
+ 
+ENTRYPOINT ["/bin/bash", "bin/build"] 

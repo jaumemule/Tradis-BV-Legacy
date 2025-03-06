@@ -1,0 +1,16 @@
+This will store a Sqlite database with the results of the study in question. This is meant to work separately per each server
+
+To run a NEW study follow this steps:
+
+- Create a new branch study/{study_name}
+- Edit study.py `study_name` (important if is new)
+- Edit `database` if this is a different server than the number 1, otherwise would overlap later while uploading results
+- Edit study._optimize_params function, passing the desired arguments to the simulator
+- Edit param_space.py and add the fields that need to be studied
+
+Once completed, upload the results to S3:
+
+- SSH to the machine and go to director/src/simulations
+- Execute `{machine_number}_study_server_results.sh`
+
+Have fun!

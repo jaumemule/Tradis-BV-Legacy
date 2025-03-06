@@ -1,0 +1,18 @@
+version: '3'
+services:
+  binance_tracker:
+    build:
+      context: ./src/binance_tracker
+    environment:
+      ENVIRONMENT: dev
+    tty: true
+    volumes:
+    - ./src/binance_tracker:/usr/app/src/binance_tracker/:cached
+  mongo_binance:
+    container_name: mongo_binance
+    image: mongo:3.6
+    volumes:
+      - ./data:/data/db
+    command: mongod --port 27018
+    ports:
+      - "27018:27018"

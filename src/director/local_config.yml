@@ -1,0 +1,9 @@
+database:
+  DB_RUNS: "postgres://postgres:eudald@localhost:5432/ppo_runs"
+  DQN_RUNS: "postgres://postgres:eudald@localhost:5432/dqn_runs"
+  LOG_RUNS: "postgres://postgres:eudald@localhost:5432/log_runs"
+  DB_HISTORY: "postgres://postgres:eudald@localhost:5432/btc_history"
+  DB_HISTORY_LIVE: "postgres://postgres:eudald@localhost:5432/history_live"
+
+screaming:
+  on_error: "Eudald's"

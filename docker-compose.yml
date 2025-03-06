@@ -1,0 +1,98 @@
+version: '3'
+services:
+  tracker:
+    build: 
+      context: ./src/tracker
+    environment:
+      REDIS_CONNECTION: 'redis://redis:6379'
+      ENVIRONMENT: dev
+      API_URL: http://api:3000/api/v1
+      MONGO_CONNECTION: mongodb://mongo:27017/aggregated
+    tty: true
+    links:
+      - mongo
+    depends_on:
+      - mongo
+    volumes:
+    - ./src/tracker:/usr/app/src/tracker/:cached
+  binance_tracker:
+    build:
+      context: ./src/binance_tracker
+    environment:
+      MONGO_CONNECTION: mongodb://mongo:27017/aggregated
+      ENVIRONMENT: dev
+    tty: true
+    volumes:
+    - ./src/binance_tracker:/usr/app/src/binance_tracker/:cached
+  mongo:
+    container_name: mongo
+    image: mongo:3.6
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27017:27017"
+  api:
+    build:
+      context: ./src/api
+    command: nodemon -L ./src/api/server.js
+    volumes:
+      - ./src/api:/usr/app/src/api
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+    links:
+      - mongo
+    environment:
+      MONGO_CONNECTION: mongodb://mongo:27017/aggregated
+      REDIS_CONNECTION_URI: 'redis'
+      REDIS_CONNECTION_PORT: '6379'
+      PORT: 3000
+      environment: dev
+  director:
+    build:
+      context: ./src/director
+    tty: true
+    environment:
+      MONGO_CONNECTION: mongodb://mongo:27017/aggregated
+      REDIS_CONNECTION: 'redis://redis:6379'
+      WALLET_URL: http://api:3000/api/v1
+      ENVIRONMENT: dev
+      AWS_ACCESS_KEY_ID: XXXXX
+      AWS_SECRET_ACCESS_KEY: XXXXX
+      AWS_DEFAULT_REGION: us-west-1
+      MODELS_BUCKET: tradis-models-dev
+    volumes:
+      - ./src/director:/usr/app/src/director/:cached
+  stop-loss:
+    build:
+      context: ./src
+      dockerfile: ./stoploss/Dockerfile
+    tty: true
+    environment:
+      WALLET_URL: http://api:3000/api/v1
+      ENVIRONMENT: dev
+    # volumes:
+    # - ./src/stoploss:/usr/app/src/stoploss/:cached
+  middleware:
+    build:
+      context: ./src/middleware
+    command: nodemon -L ./src/middleware/server.js
+    volumes:
+      - ./src/middleware/src:/usr/app/src
+    ports:
+      - "8070:8070"
+    environment:
+      MONGO_CONNECTION: mongodb://mongo:27017/aggregated
+      ENVIRONMENT: dev
+      BASE_URL: "http://localhost:insert_port/"
+      SENDIN_BLUE_API_KEY: ""
+      PORT: 8070
+      API_URL: "http://api:3000"
+      JWT_SECRET: "XXXXX"
+  redis:
+    container_name: redis
+    image: redis:5.0.7
+    ports:
+      - "6379:6379"
+

@@ -1,0 +1,77 @@
+data:
+  opt_train: "BTC_bitstamp_opt_train"
+  opt_test: "BTC_bitstamp_opt_test"
+  train: "BTC_bitstamp_train"
+  validation: "BTC_bitstamp_validation"
+
+indicators:
+  period: 20
+  chop_period: 20
+  rsi_period: 14
+  max_roc: 5
+  max_volume_roc: 5
+  fast_period: 12
+  slow_period: 30
+  signal_period: 9
+
+indicator_list:
+  - macd
+  - chaik_osc
+  - rsi
+  - atr
+
+training:
+  dichotomous: false
+  n_trials: 40
+  run_epoch: 7
+  max_episode_steps: 30000
+  num_training_episodes: 2
+  min_ratio: .05
+  n_trains: 5
+  n_tests: 2
+  max_episode_timesteps: 50
+
+about_data:
+  window: 1
+  forecast_len: 240
+  candles:
+    - 20
+    - 60
+    - 120
+  state_shape:
+    - 1
+    - 3
+    - 16
+  history_shape:
+    - 1
+    - 3
+agent:
+  model_type: "original"
+  agent_type: 'dqn'  # only dqn and sarsa
+  alpha: 0.4185976712397858
+  batch_size: 32
+  dense_units: 114
+  inner_units: 81
+  proba: 0.4287247452799542
+  threshold: 0.0526618322467187
+  dropout: 0.7686289009941499
+  lr: 0.00021191581405897354
+
+network:
+  kernel_size: 1  # TODO: find a way to configure data to make them bigger
+  pooling_size: 1
+  max_bias: 10
+  maxi_norm: 10
+  inner_activation: "relu"
+  final_activation: "softmax"
+  history_units: 3
+  batch_normalization: true  # not implemented (TODO)
+
+study:
+  tag: "jul9"
+
+financial:
+  start_cash: 1.
+  fee: 0.
+  reference_coin: 'USDT'
+  trading_coin: 'ETH'

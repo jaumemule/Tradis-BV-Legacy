@@ -1,0 +1,12 @@
+#!/bin/bash
+
+currentDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+projectDir=$currentDir/../..
+
+cd $projectDir
+
+npm install
+
+gulp
+
+nodemon server.js

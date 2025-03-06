@@ -1,0 +1,11 @@
+/.idea
+/charts
+/investments
+/logs
+/data
+/models
+/.ipynb_checkpoints
+/visualization/
+/all_new_data/
+trader_draft.ipynb
+/proves.csv

@@ -1,0 +1,786 @@
+------------------------------------------------------------
+-----   from 2020-09-01 00:50:00 to 2020-09-30 00:50:00   -----
+------------------------------------------------------------
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:21:10.927458
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:10.927458
+lockingMinutes: 720
+results: {'BTC': '6.0', 'USDT': '-1.27'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:21:00.734755
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:00.734755
+lockingMinutes: 720
+results: {'BTC': '3.4', 'USDT': '-3.69'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:20:48.217187
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:20:48.217187
+lockingMinutes: 720
+results: {'BTC': '2.51', 'USDT': '-4.53'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:21:17.017566
+lockStrategy: True
+tradingBotsEnabled: False
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:17.017566
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:44.391478
+lockStrategy: True
+tradingBotsEnabled: False
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:44.391478
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:20:57.570876
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:20:57.570876
+lockingMinutes: 720
+results: {'BTC': '-1.73', 'USDT': '-8.47'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:21:07.401278
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:07.401278
+lockingMinutes: 720
+results: {'BTC': '-3.38', 'USDT': '-10.01'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:33.369352
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:33.369352
+lockingMinutes: 720
+results: {'BTC': '-3.38', 'USDT': '-10.01'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:20:54.513270
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:20:54.513270
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:20:51.555094
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:20:51.555094
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:23.110444
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:23.110444
+lockingMinutes: 720
+results: {'BTC': '-1.73', 'USDT': '-8.47'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:21:03.929952
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:03.929952
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:21:13.931675
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:13.931675
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:13.139670
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:13.139670
+lockingMinutes: 720
+results: {'BTC': '2.51', 'USDT': '-4.53'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:16.324405
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:16.324405
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:26.909436
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:26.909436
+lockingMinutes: 720
+results: {'BTC': '3.4', 'USDT': '-3.69'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:36.701013
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:36.701013
+lockingMinutes: 720
+results: {'BTC': '6.0', 'USDT': '-1.27'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:19.752197
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:19.752197
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:40.471057
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:40.471057
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+2020-09-01 00:50:002020-09-30 00:50:00procyon_simulation_2021-03-23 16:22:30.322021
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:22:30.322021
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '-6.96'}
+
+------------------------------------------------------------
+-----------------------   END    ---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----   from 2020-08-01 00:50:00 to 2020-08-30 00:50:00   -----
+------------------------------------------------------------
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:28.894422
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:28.894422
+lockingMinutes: 720
+results: {'BTC': '1.79', 'USDT': '3.91'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:53.491244
+lockStrategy: True
+tradingBotsEnabled: False
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:53.491244
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '1.98'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:43.116800
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:43.116800
+lockingMinutes: 720
+results: {'BTC': '-4.01', 'USDT': '-2.01'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:32.680049
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:32.680049
+lockingMinutes: 720
+results: {'BTC': '-7.48', 'USDT': '-5.56'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:21.838244
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:21.838244
+lockingMinutes: 720
+results: {'BTC': '-8.1', 'USDT': '-6.19'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:36.124463
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:36.124463
+lockingMinutes: 720
+results: {'BTC': '-4.74', 'USDT': '-2.76'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:25.439296
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:25.439296
+lockingMinutes: 720
+results: {'BTC': '-0.59', 'USDT': '1.48'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:46.966223
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:46.966223
+lockingMinutes: 720
+results: {'BTC': '-4.74', 'USDT': '-2.76'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:39.564777
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:39.564777
+lockingMinutes: 720
+results: {'BTC': '-0.59', 'USDT': '1.48'}
+
+2020-08-01 00:50:002020-08-30 00:50:00procyon_simulation_2021-03-23 16:21:50.236528
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:21:50.236528
+lockingMinutes: 720
+results: {'BTC': '-0.59', 'USDT': '1.48'}
+
+------------------------------------------------------------
+-----------------------   END    ---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----   from 2020-10-01 00:50:00 to 2020-10-30 00:50:00   -----
+------------------------------------------------------------
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:36.327063
+lockStrategy: True
+tradingBotsEnabled: False
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:36.327063
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '25.67'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:18.186075
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:18.186075
+lockingMinutes: 720
+results: {'BTC': '-0.26', 'USDT': '25.47'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:27.060020
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:27.060020
+lockingMinutes: 720
+results: {'BTC': '-1.71', 'USDT': '23.64'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:08.521611
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:08.521611
+lockingMinutes: 720
+results: {'BTC': '-1.67', 'USDT': '23.69'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:30.115986
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:30.115986
+lockingMinutes: 720
+results: {'BTC': '-0.63', 'USDT': '25.0'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:12.332695
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:12.332695
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '25.67'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:21.044236
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:21.044236
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '25.67'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:33.070545
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:33.070545
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '25.67'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:24.169522
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:24.169522
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '25.67'}
+
+2020-10-01 00:50:002020-10-30 00:50:00procyon_simulation_2021-03-23 16:56:15.321876
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:15.321876
+lockingMinutes: 720
+results: {'BTC': '-0.1', 'USDT': '25.67'}
+
+------------------------------------------------------------
+-----------------------   END    ---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----   from 2020-11-01 00:50:00 to 2020-11-30 00:50:00   -----
+------------------------------------------------------------
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:57:03.178403
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:57:03.178403
+lockingMinutes: 720
+results: {'BTC': '0.54', 'USDT': '34.97'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:56:53.569386
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:53.569386
+lockingMinutes: 720
+results: {'BTC': '-1.14', 'USDT': '32.71'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:56:40.423708
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:40.423708
+lockingMinutes: 720
+results: {'BTC': '-2.16', 'USDT': '31.34'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:57:10.029174
+lockStrategy: True
+tradingBotsEnabled: False
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:57:10.029174
+lockingMinutes: 720
+results: {'BTC': '-2.41', 'USDT': '31.0'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:56:59.763916
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:59.763916
+lockingMinutes: 720
+results: {'BTC': '-7.88', 'USDT': '23.66'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:56:49.997802
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:49.997802
+lockingMinutes: 720
+results: {'BTC': '-7.01', 'USDT': '24.83'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:57:06.752239
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:57:06.752239
+lockingMinutes: 720
+results: {'BTC': '-1.54', 'USDT': '32.17'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:56:43.590383
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:43.590383
+lockingMinutes: 720
+results: {'BTC': '-3.57', 'USDT': '29.45'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:56:46.838374
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:46.838374
+lockingMinutes: 720
+results: {'BTC': '-2.41', 'USDT': '31.0'}
+
+2020-11-01 00:50:002020-11-30 00:50:00procyon_simulation_2021-03-23 16:56:56.315703
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:56.315703
+lockingMinutes: 720
+results: {'BTC': '0.04', 'USDT': '34.29'}
+
+------------------------------------------------------------
+-----------------------   END    ---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----   from 2020-12-01 00:50:00 to 2020-12-30 00:50:00   -----
+------------------------------------------------------------
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:56:44.901678
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:44.901678
+lockingMinutes: 720
+results: {'BTC': '1.42', 'USDT': '43.97'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:57:14.487716
+lockStrategy: True
+tradingBotsEnabled: False
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:57:14.487716
+lockingMinutes: 720
+results: {'BTC': '-1.24', 'USDT': '40.19'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:57:04.674625
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:57:04.674625
+lockingMinutes: 720
+results: {'BTC': '-14.83', 'USDT': '20.9'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:56:55.412886
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:55.412886
+lockingMinutes: 720
+results: {'BTC': '-13.35', 'USDT': '23.0'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:57:07.926547
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:57:07.926547
+lockingMinutes: 720
+results: {'BTC': '-3.93', 'USDT': '36.38'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:56:48.018454
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:48.018454
+lockingMinutes: 720
+results: {'BTC': '0.12', 'USDT': '42.13'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:56:58.308269
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:58.308269
+lockingMinutes: 720
+results: {'BTC': '0.12', 'USDT': '42.13'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:57:11.133192
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:57:11.133192
+lockingMinutes: 720
+results: {'BTC': '-0.76', 'USDT': '40.87'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:56:51.493207
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:56:51.493207
+lockingMinutes: 720
+results: {'BTC': '-0.76', 'USDT': '40.87'}
+
+2020-12-01 00:50:002020-12-30 00:50:00procyon_simulation_2021-03-23 16:57:01.333805
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-23 16:57:01.333805
+lockingMinutes: 720
+results: {'BTC': '-0.76', 'USDT': '40.87'}
+
+------------------------------------------------------------
+-----------------------   END    ---------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----   from 2021-01-01 00:50:00 to 2021-01-30 00:50:00   -----
+------------------------------------------------------------
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:38:03.586853
+lockStrategy: True
+tradingBotsEnabled: False
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:38:03.586853
+lockingMinutes: 720
+results: {'BTC': '10.2', 'USDT': '31.59'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:37:54.105780
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:37:54.105780
+lockingMinutes: 720
+results: {'BTC': '-19.59', 'USDT': '-3.98'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:37:45.197767
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:37:45.197767
+lockingMinutes: 720
+results: {'BTC': '-18.64', 'USDT': '-2.85'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:37:35.779455
+whaleDownPercent: 1.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:37:35.779455
+lockingMinutes: 720
+results: {'BTC': '-6.75', 'USDT': '11.35'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:37:57.220975
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:37:57.220975
+lockingMinutes: 720
+results: {'BTC': '-25.4', 'USDT': '-10.92'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:37:48.017920
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:37:48.017920
+lockingMinutes: 720
+results: {'BTC': '-20.13', 'USDT': '-4.63'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:37:38.963869
+whaleDownPercent: 2.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:37:38.963869
+lockingMinutes: 720
+results: {'BTC': '4.96', 'USDT': '25.33'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:37:42.074733
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 1.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:37:42.074733
+lockingMinutes: 720
+results: {'BTC': '-1.91', 'USDT': '17.13'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:37:51.009079
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 2.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:37:51.009079
+lockingMinutes: 720
+results: {'BTC': '2.46', 'USDT': '22.35'}
+
+2021-01-01 00:50:002021-01-30 00:50:00procyon_simulation_2021-03-24 09:38:00.273341
+whaleDownPercent: 3.0
+whaleUpPercent: 1000.0
+whaleMinuteLookup: 3.0
+lockStrategy: True
+tradingBotsEnabled: True
+candleSize: 60
+strategyName: procyon_simulation_2021-03-24 09:38:00.273341
+lockingMinutes: 720
+results: {'BTC': '3.78', 'USDT': '23.92'}
+
+------------------------------------------------------------
+-----------------------   END    ---------------------------
+------------------------------------------------------------
+
